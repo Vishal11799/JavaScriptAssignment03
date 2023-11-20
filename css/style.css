@@ -9,6 +9,7 @@ body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
@@ -18,86 +19,91 @@ body {
 
 /* Style the header */
 header {
-    background-color: #171717; /* Choose your desired background color */
-    color: #fff; /* Choose your desired text color */
-    padding: 10px 0; /* Add padding to the header */
+    background-color: #171717; 
+    color: #fff; 
+    padding: 10px 0; 
 }
 
+/* Container for header content */
 .Header_Container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Logo styling in the header */
 .Header_Container img {
     width: 100px;
     height: 100px;
 }
 
+/* Navigation styling */
 nav ul {
     list-style: none;
     display: flex;
 }
 
 nav ul li {
-    margin-right: 20px; /* Adjust spacing between navigation items */
+    margin-right: 20px; 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* Choose your desired link color */
+    color: #fff;
     font-weight: bold;
-    transition: color 0.3s ease; /* Add a smooth transition effect for link color */
+    transition: color 0.3s ease; 
 }
-
+/*hover effect*/
 nav ul li a:hover {
-    color: #ffd700; /* Choose your desired link color on hover */
+    color: #ffd700; 
 }
 
+/* Styling for background image section */
 .background_img {
-    background-image: url('../assert/img/background\ img.jpg'); /* Replace with the path to your image */
-    background-size: cover; /* Cover the entire header with the background image */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the background image */
-    color: #fff; /* Choose your desired text color */
+    background-image: url('../assert/img/background\ img.jpg'); /* Path to the background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
     width: 100%;
-    height: 90vh; 
+    height: 90vh;
     padding-top: 10%;
 }
 
-/* Add this CSS to your existing styles */
-
+/* Additional styling for sections */
 section {
-    background-color: #f8f8f8; /* Background color for the section */
-    padding: 40px 0; /* Add some padding to the top and bottom of the section */
+    background-color: #f8f8f8;
+    padding: 40px 0;
 }
 
+/* Styling for pizza container */
 .PizzaContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap; /* Allow pizzas to wrap to the next line on small screens */
+    flex-wrap: wrap;
 }
 
+/* Styling for individual pizzas */
 .Pizza {
     text-align: center;
     margin: 20px;
-    max-width: 250px; /* Adjust the maximum width of each pizza */
-    border: 1px solid #ddd; /* Add a border for visual separation */
-    border-radius: 8px; /* Add rounded corners */
-    overflow: hidden; /* Hide overflowing content */
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    max-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 .Pizza:hover {
-    transform: scale(1.05); /* Enlarge the pizza on hover */
+    transform: scale(1.05);
 }
 
 .Pizza img {
     width: 100%;
     height: auto;
-    max-height: 150px; /* Adjust the maximum height of each pizza image */
-    border-bottom: 1px solid #ddd; /* Add a border below the image */
+    max-height: 150px;
+    border-bottom: 1px solid #ddd;
 }
 
 .Pizza h3 {
@@ -111,31 +117,34 @@ section {
     margin-bottom: 10px;
 }
 
-
+/* Styling for order button */
 .OrderButton {
-    background-color: #4CAF50; /* Green background color */
-    color: white; /* White text color */
-    padding: 10px 15px; /* Padding around the button text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor on hover */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     font-size: 14px;
-    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    transition: background-color 0.3s ease;
 }
 
 .OrderButton:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
 
+/* Main content styling */
 main {
     text-align: center;
 }
 
+/* Styling for centered heading */
 .centered-heading {
-    color: #4CAF50; /* or your preferred color */
+    color: #4CAF50;
     margin-top: 20px;
 }
 
+/* Styling for a form section */
 .from_section {
     max-width: 600px;
     margin: 20px auto;
@@ -145,6 +154,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for form elements */
 form {
     display: grid;
     gap: 15px;
@@ -169,6 +179,7 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
+/* Styling for buttons */
 button {
     padding: 10px;
     background-color: #333;
@@ -178,9 +189,8 @@ button {
     cursor: pointer;
 }
 
+/* Styling for italicized text */
 p {
     font-style: italic;
     margin-top: 10px;
 }
-
-
