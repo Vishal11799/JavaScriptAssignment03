@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Pizza Maker</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JS/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="Header_Container">
+            <div>
+                <img src="./assert/img/logo.jpeg" alt="logo img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Order Hear</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="background_img"> 
+    </div>
+    <main class="centered-heading">
+        <h3 >Our Popular Pizza</h3>
+        <section>
+            <div class="PizzaContainer">
+                <div class="Pizza">
+                    <img src="./assert/img/pizza_Cheess.jpeg" alt="Cheese Pizza">
+                    <h3>Cheese Pizza</h3>
+                    <p class="PizzaDescription">A classic pizza topped with a variety of cheeses.</p>
+                    <button type="button">Order now</button>
+                </div>
+        
+                <div class="Pizza">
+                    <img src="./assert/img/spicy_butter.jpeg" alt="Spicy Butter Masala Pizza">
+                    <h3>Spicy Butter Masala Pizza</h3>
+                    <p class="PizzaDescription">A spicy twist with butter masala flavor.</p>
+                    <button type="button">Order now</button>
+                </div>
+        
+                <div class="Pizza">
+                    <img src="./assert/img/angry.jpeg" alt="Angry Butter Sammy Pizza">
+                    <h3>Angry Butter Sammy Pizza</h3>
+                    <p class="PizzaDescription">An angry kick of flavors with butter and spices.</p>
+                    <button type="button">Order now</button>
+                </div>
+        
+                <div class="Pizza">
+                    <img src="./assert/img/panner chicken.jpeg" alt="Butter Masala Pizza">
+                    <h3>Butter Masala Pizza</h3>
+                    <p class="PizzaDescription">A delicious blend of buttery goodness and masala.</p>
+                    <button type="button">Order now</button>
+                </div>
+                <div class="Pizza">
+                    <img src="./assert/img/cousomise_pizza.jpeg" alt="coustomise_pizza">
+                    <h3>Make your Own Pizza</h3>
+                    <p class="PizzaDescription">A delicious & your Choise.</p>
+                    <button type="button">Order now</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <Section class="from_section">
+            <form id="pizzaOrderForm" >
+                <label for="customerName">Your Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+        
+                <label for="customerEmail">Your Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+        
+                <label for="customerNumber">Your Phone Number:</label>
+                <input type="tel" id="customerNumber" name="customerNumber" required>
+        
+                <label for="deliveryAddress">Delivery Address:</label>
+                <textarea id="deliveryAddress" name="deliveryAddress" rows="3" required></textarea>
+        
+                <label for="pizzaSize">Select Pizza Size:</label>
+                <select id="pizzaSize" name="pizzaSize" required>
+                    <option value="Small">small</option>
+                    <option value="Medium">medium</option>
+                    <option value="Large">large</option>
+                </select>
+        
+                <label>Crust Type:</label>
+                <input type="radio" id="thinCrust" name="crustType" value="Thin" required>
+                <label for="thinCrust">Thin Crust</label>
+                <input type="radio" id="thickCrust" name="crustType" value="Thick" required>
+                <label for="thickCrust">Thick Crust</label>
+        
+                <label for="pizzaIngredients">Select Pizza Ingredients (Ctrl+Click to select multiple):</label>
+                <select id="pizzaIngredients" name="pizzaIngredients" multiple required>
+                    <option value="Pepperoni">Pepperoni</option>
+                    <option value="Mushrooms">Mushrooms</option>
+                    <option value="Onions">Onions</option>
+                    <option value="Sausage">Sausage</option>
+                    <option value="Green Peppers">Green Peppers</option>
+                    <option value="Olives">Olives</option>
+                </select>
+        
+                <a href="#" class="order_btn">Order Now</a>
+            </form>
+        
+            <p id="studentInfo">Student ID: YourID | Name: YourName</p>
+            <p id="orderResult"> result</p>
+        </Section>
+        
+        
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,186 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #171717; /* Choose your desired background color */
+    color: #fff; /* Choose your desired text color */
+    padding: 10px 0; /* Add padding to the header */
+}
+
+.Header_Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header_Container img {
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px; /* Adjust spacing between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Choose your desired link color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth transition effect for link color */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Choose your desired link color on hover */
+}
+
+.background_img {
+    background-image: url('../assert/img/background\ img.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire header with the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    color: #fff; /* Choose your desired text color */
+    width: 100%;
+    height: 90vh; 
+    padding-top: 10%;
+}
+
+/* Add this CSS to your existing styles */
+
+section {
+    background-color: #f8f8f8; /* Background color for the section */
+    padding: 40px 0; /* Add some padding to the top and bottom of the section */
+}
+
+.PizzaContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* Allow pizzas to wrap to the next line on small screens */
+}
+
+.Pizza {
+    text-align: center;
+    margin: 20px;
+    max-width: 250px; /* Adjust the maximum width of each pizza */
+    border: 1px solid #ddd; /* Add a border for visual separation */
+    border-radius: 8px; /* Add rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.Pizza:hover {
+    transform: scale(1.05); /* Enlarge the pizza on hover */
+}
+
+.Pizza img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the maximum height of each pizza image */
+    border-bottom: 1px solid #ddd; /* Add a border below the image */
+}
+
+.Pizza h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.PizzaDescription {
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+
+.OrderButton {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding around the button text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.OrderButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+main {
+    text-align: center;
+}
+
+.centered-heading {
+    color: #4CAF50; /* or your preferred color */
+    margin-top: 20px;
+}
+
+.from_section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
